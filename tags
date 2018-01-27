@@ -9,7 +9,6 @@ EXAMPLES	orderedCountOfCharactersTest.py	/^EXAMPLES = ($/;"	v
 beggars	english_beggers.py	/^def beggars(values, n):  # n = beggers, values = List of begs$/;"	f
 digital_root	digitalRoot.py	/^def digital_root(n):$/;"	f
 filter_list	listFiltering.py	/^def filter_list(l):$/;"	f
-find_it	oddInt.py	/^def find_it(seq):$/;"	f
 find_it	odd_int.py	/^def find_it(seq):$/;"	f
 his_filter_list	listFiltering.py	/^def his_filter_list(l):$/;"	f
 is_isogram	Isograms.py	/^def is_isogram(string):$/;"	f
@@ -21,10 +20,14 @@ l5	sumPairs.py	/^l5= [10, 5, 2, 3, 7, 5]$/;"	v
 l6	sumPairs.py	/^l6= [4, -2, 3, 3, 4]$/;"	v
 l7	sumPairs.py	/^l7= [0, 2, 0]$/;"	v
 l8	sumPairs.py	/^l8= [5, 9, 13, -3]$/;"	v
+make_readable	human_readable_time.py	/^def make_readable(seconds):$/;"	f
+make_readable_2	human_readable_time.py	/^def make_readable_2(s):$/;"	f
 ordered_count	orderedCountOfCharacters.py	/^def ordered_count(input):$/;"	f
 reverse	reverseWords.py	/^def reverse(st):$/;"	f
+solution	largest_5_numbers_in_a_series.py	/^def solution(digits):$/;"	f
 solution	multiples_of_3_and_5.py	/^def solution(number):$/;"	f
 sum_pairs	sumPairs.py	/^def sum_pairs(ints, s):$/;"	f
 test_returns_correct_result	orderedCountOfCharactersTest.py	/^def test_returns_correct_result(text, expected):$/;"	f
-x	oddInt.py	/^    x = find_it([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5])$/;"	v
+x	human_readable_time.py	/^    x = make_readable(86399)$/;"	v
+x	largest_5_numbers_in_a_series.py	/^    x = solution(1234567890)$/;"	v
 x	odd_int.py	/^    x = find_it([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5])$/;"	v
