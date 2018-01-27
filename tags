@@ -7,14 +7,19 @@
 !_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
 EXAMPLES	orderedCountOfCharactersTest.py	/^EXAMPLES = ($/;"	v
 a	directions_reductions.py	/^    a=["NORTH", "WEST", "SOUTH", "EAST"]$/;"	v
+available	pete_the_baker.py	/^    available = {"flour": 1200, "sugar": 1200, "eggs": 5, "milk": 200}$/;"	v
+available	pete_the_baker.py	/^    available = {"sugar": 500, "flour": 2000, "milk": 2000}$/;"	v
 beggars	english_beggers.py	/^def beggars(values, n):  # n = beggers, values = List of begs$/;"	f
 bug	directions_reductions.py	/^    bug = ['NORTH', 'EAST', 'NORTH', 'EAST', 'WEST', 'SOUTH']$/;"	v
+cakes	pete_the_baker.py	/^def cakes(recipe, available):$/;"	f
+calc	reverse_polish_notation.py	/^def calc(expr):$/;"	f
 digital_root	digitalRoot.py	/^def digital_root(n):$/;"	f
 dirReduc	directions_reductions.py	/^def dirReduc(arr):$/;"	f
 filter_list	listFiltering.py	/^def filter_list(l):$/;"	f
 find_it	odd_int.py	/^def find_it(seq):$/;"	f
 his_filter_list	listFiltering.py	/^def his_filter_list(l):$/;"	f
 is_isogram	Isograms.py	/^def is_isogram(string):$/;"	f
+is_valid_IP	ip_validation.py	/^def is_valid_IP(strng):$/;"	f
 l1	sumPairs.py	/^l1= [1, 4, 8, 7, 3, 15]$/;"	v
 l2	sumPairs.py	/^l2= [1, -2, 3, 0, -6, 1]$/;"	v
 l3	sumPairs.py	/^l3= [20, -13, 40]$/;"	v
@@ -25,7 +30,10 @@ l7	sumPairs.py	/^l7= [0, 2, 0]$/;"	v
 l8	sumPairs.py	/^l8= [5, 9, 13, -3]$/;"	v
 make_readable	human_readable_time.py	/^def make_readable(seconds):$/;"	f
 make_readable_2	human_readable_time.py	/^def make_readable_2(s):$/;"	f
+operation	reverse_polish_notation.py	/^def operation(s, o1, o2):$/;"	f
 ordered_count	orderedCountOfCharacters.py	/^def ordered_count(input):$/;"	f
+recipe	pete_the_baker.py	/^    recipe = {"apples": 3, "flour": 300, "sugar": 150, "milk": 100, "oil": 100}$/;"	v
+recipe	pete_the_baker.py	/^    recipe = {"flour": 500, "sugar": 200, "eggs": 1}$/;"	v
 reverse	reverseWords.py	/^def reverse(st):$/;"	f
 solution	largest_5_numbers_in_a_series.py	/^def solution(digits):$/;"	f
 solution	multiples_of_3_and_5.py	/^def solution(number):$/;"	f
