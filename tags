@@ -8,6 +8,7 @@
 EXAMPLES	orderedCountOfCharactersTest.py	/^EXAMPLES = ($/;"	v
 a	directions_reductions.py	/^    a=["NORTH", "WEST", "SOUTH", "EAST"]$/;"	v
 beggars	english_beggers.py	/^def beggars(values, n):  # n = beggers, values = List of begs$/;"	f
+bug	directions_reductions.py	/^    bug = ['NORTH', 'EAST', 'NORTH', 'EAST', 'WEST', 'SOUTH']$/;"	v
 digital_root	digitalRoot.py	/^def digital_root(n):$/;"	f
 dirReduc	directions_reductions.py	/^def dirReduc(arr):$/;"	f
 filter_list	listFiltering.py	/^def filter_list(l):$/;"	f
@@ -30,7 +31,6 @@ solution	largest_5_numbers_in_a_series.py	/^def solution(digits):$/;"	f
 solution	multiples_of_3_and_5.py	/^def solution(number):$/;"	f
 sum_pairs	sumPairs.py	/^def sum_pairs(ints, s):$/;"	f
 test_returns_correct_result	orderedCountOfCharactersTest.py	/^def test_returns_correct_result(text, expected):$/;"	f
-x	directions_reductions.py	/^    x = dirReduc(a)$/;"	v
 x	human_readable_time.py	/^    x = make_readable(86399)$/;"	v
 x	largest_5_numbers_in_a_series.py	/^    x = solution(1234567890)$/;"	v
 x	odd_int.py	/^    x = find_it([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5])$/;"	v
