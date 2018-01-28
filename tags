@@ -43,6 +43,7 @@ l6	python/sumPairs.py	/^l6= [4, -2, 3, 3, 4]$/;"	v
 l7	python/sumPairs.py	/^l7= [0, 2, 0]$/;"	v
 l8	python/sumPairs.py	/^l8= [5, 9, 13, -3]$/;"	v
 loss	java/src/TestsPokerHand.java	/^    private PokerHand.Result loss = PokerHand.Result.LOSS;$/;"	f	class:TestsPokerHand	file:
+main	cpp/snail.cpp	/^int main(){$/;"	f	typeref:typename:int
 make_readable	python/human_readable_time.py	/^def make_readable(seconds):$/;"	f
 make_readable_2	python/human_readable_time.py	/^def make_readable_2(s):$/;"	f
 operation	python/reverse_polish_notation.py	/^def operation(s, o1, o2):$/;"	f
