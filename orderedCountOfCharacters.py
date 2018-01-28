@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Author            : desertsniper87 <torshobuet@gmail.com>
+# Date              : 28.01.2018
+# Last Modified Date: 28.01.2018
 """https://www.codewars.com/kata/ordered-count-of-characters/train/python"""
 
 def ordered_count(input):

@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Author            : desertsniper87 <torshobuet@gmail.com>
+# Date              : 27.01.2018
+# Last Modified Date: 28.01.2018
+# Completed         : 27.01.2018
+
 def solution(digits):
     l = [int(i) for i in str(digits)]
     maxi = 0

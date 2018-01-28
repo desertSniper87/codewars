@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Author            : desertsniper87 <torshobuet@gmail.com>
+# Date              : 27.01.2018
+# Last Modified Date: 28.01.2018
+# Completed         : 27.01.2018
+
 # https://en.wikipedia.org/wiki/Reverse_Polish_notatifor each token in the postfix expression:
 # for each token in the postfix expression:
 # if token is an operator:
@@ -23,19 +30,9 @@ def calc(expr):
     print(expr)
     if (expr==""): return '0'
     notation = expr.split(" ")
-    # print(stack.pop(), stack)
-    # print(stack[-1])
-    # print(token)
-    # if token.isdigit()==False:
     stack = []
     result = []
     for token in notation:
-        # try: 
-            # float(token)
-            # stack.append(token)
-        # except:
-            # pass
-        # print(token)
         if token.replace('.', '1').isdigit()==False:
             o2 = stack.pop()
             o1 = stack.pop()
@@ -43,23 +40,14 @@ def calc(expr):
             stack.append(result)
         else:
             stack.append(token)
-    # print(result[-1])
     print(stack[-1])
     a = stack[-1]
     try: 
         return float(a)
     except:
         return int(a)
-    # return(int(stack[-1]))
 
-        # if (stack[-1].isdigit()==False):
-            # print(stack)
-            # token = stack.pop()
-            # print(result)
-            # stack.append(result)
-    # else:
 
-    # print(s)
 if __name__ == "__main__":
     calc("")
     calc("1 2 3")

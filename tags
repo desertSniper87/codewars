@@ -7,6 +7,7 @@
 !_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
 EXAMPLES	orderedCountOfCharactersTest.py	/^EXAMPLES = ($/;"	v
 a	directions_reductions.py	/^    a=["NORTH", "WEST", "SOUTH", "EAST"]$/;"	v
+array	snail.py	/^array = [[1,2,3],$/;"	v
 available	pete_the_baker.py	/^    available = {"flour": 1200, "sugar": 1200, "eggs": 5, "milk": 200}$/;"	v
 available	pete_the_baker.py	/^    available = {"sugar": 500, "flour": 2000, "milk": 2000}$/;"	v
 beggars	english_beggers.py	/^def beggars(values, n):  # n = beggers, values = List of begs$/;"	f
@@ -35,6 +36,7 @@ ordered_count	orderedCountOfCharacters.py	/^def ordered_count(input):$/;"	f
 recipe	pete_the_baker.py	/^    recipe = {"apples": 3, "flour": 300, "sugar": 150, "milk": 100, "oil": 100}$/;"	v
 recipe	pete_the_baker.py	/^    recipe = {"flour": 500, "sugar": 200, "eggs": 1}$/;"	v
 reverse	reverseWords.py	/^def reverse(st):$/;"	f
+snail	snail.py	/^def snail(array):$/;"	f
 solution	largest_5_numbers_in_a_series.py	/^def solution(digits):$/;"	f
 solution	multiples_of_3_and_5.py	/^def solution(number):$/;"	f
 sum_pairs	sumPairs.py	/^def sum_pairs(ints, s):$/;"	f
