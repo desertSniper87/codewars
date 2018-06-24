@@ -3,6 +3,7 @@
 # Author            : desertsniper87 <torshobuet@gmail.com>
 # Date              : 30.01.2018
 # Last Modified Date: 31.01.2018
+# Completed         : 31.01.2018
 class Vector:
 
     """Docstring for Vector. """

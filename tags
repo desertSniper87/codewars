@@ -15,6 +15,8 @@ PokerHandRankingTest	java/src/TestsPokerHand.java	/^    public void PokerHandRan
 Result	java/src/PokerHand.java	/^    public enum Result { TIE, WIN, LOSS }$/;"	g	class:PokerHand
 TIE	java/src/PokerHand.java	/^    public enum Result { TIE, WIN, LOSS }$/;"	e	enum:PokerHand.Result	file:
 Test	java/src/TestsPokerHand.java	/^    private void Test(String description, PokerHand.Result expected, String playerHand, String o/;"	m	class:TestsPokerHand	file:
+Test	python/pyramide-slide-down.py	/^import nose.tools as Test$/;"	I
+Test	python/strip-comments.py	/^import nose.tools as Test$/;"	I
 TestsPokerHand	java/src/TestsPokerHand.java	/^public class TestsPokerHand$/;"	c
 Vector	python/vector.py	/^class Vector:$/;"	c
 WIN	java/src/PokerHand.java	/^    public enum Result { TIE, WIN, LOSS }$/;"	e	enum:PokerHand.Result	file:
@@ -39,6 +41,7 @@ equals	python/vector.py	/^    def equals(self, a):$/;"	m	class:Vector
 filter_list	python/listFiltering.py	/^def filter_list(l):$/;"	f
 findNextSquare	java/src/NumberFun.java	/^    public static long findNextSquare(long sq){$/;"	m	class:NumberFun
 find_it	python/odd_int.py	/^def find_it(seq):$/;"	f
+format_duration	python/human-readable-duration-format.py	/^def format_duration(seconds):$/;"	f
 his_filter_list	python/listFiltering.py	/^def his_filter_list(l):$/;"	f
 invalid_coordinates	python/coordinates_validator.py	/^    invalid_coordinates = [$/;"	v
 is_isogram	python/Isograms.py	/^def is_isogram(string):$/;"	f
@@ -52,6 +55,7 @@ l5	python/sumPairs.py	/^l5= [10, 5, 2, 3, 7, 5]$/;"	v
 l6	python/sumPairs.py	/^l6= [4, -2, 3, 3, 4]$/;"	v
 l7	python/sumPairs.py	/^l7= [0, 2, 0]$/;"	v
 l8	python/sumPairs.py	/^l8= [5, 9, 13, -3]$/;"	v
+longest_slide_down	python/pyramide-slide-down.py	/^def longest_slide_down(pyr):$/;"	f
 loss	java/src/TestsPokerHand.java	/^    private PokerHand.Result loss = PokerHand.Result.LOSS;$/;"	f	class:TestsPokerHand	file:
 main	c/printer_errors.c	/^int main(){$/;"	f	typeref:typename:int
 main	cpp/snail.cpp	/^int main(){$/;"	f	typeref:typename:int
@@ -65,11 +69,14 @@ recipe	python/pete_the_baker.py	/^    recipe = {"apples": 3, "flour": 300, "suga
 recipe	python/pete_the_baker.py	/^    recipe = {"flour": 500, "sugar": 200, "eggs": 1}$/;"	v
 reverse	python/reverseWords.py	/^def reverse(st):$/;"	f
 s1	python/snail.py	/^def s1(array):$/;"	f
+slide	python/pyramide-slide-down.py	/^def slide(array):$/;"	f
 snail	python/snail.py	/^def snail(array):$/;"	f
 solution	python/largest_5_numbers_in_a_series.py	/^def solution(digits):$/;"	f
 solution	python/multiples_of_3_and_5.py	/^def solution(number):$/;"	f
+solution	python/strip-comments.py	/^def solution(string, markers):$/;"	f
 subtract	python/vector.py	/^    def subtract(self, a):$/;"	m	class:Vector
 sum_pairs	python/sumPairs.py	/^def sum_pairs(ints, s):$/;"	f
+test	python/human-readable-duration-format.py	/^test = TestCase()$/;"	v
 test1	java/src/FindNextSquareTest.java	/^    public void test1() {$/;"	m	class:FindNextSquareTest
 test2	java/src/FindNextSquareTest.java	/^    public void test2() {$/;"	m	class:FindNextSquareTest
 test3	java/src/FindNextSquareTest.java	/^    public void test3() {$/;"	m	class:FindNextSquareTest
