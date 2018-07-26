@@ -28,12 +28,12 @@ public class PokerHand
 
                 }
 
-                switch (tokenType) {
-                    case 'H':
-                        hearts++;
-                        break;
-                    case ''
-                }
+//                switch (tokenType) {
+//                    case 'H':
+//                        hearts++;
+//                        break;
+//                    case '':
+//                }
         }
     }
 
