@@ -1,23 +1,21 @@
 def sum_of_intervals(intervals):
     intervals = sorted(list(set(intervals)))
-
-
-
-    try:
-        for ix, i in enumerate(intervals):
-            if overlap(i, intervals[ix+1]):
-                y = union_(i, intervals[ix+1])
-                del intervals[ix]
-                del intervals[ix]
-                intervals.insert(ix, (0, 0))
-                intervals.insert(ix+1, y)
-    except IndexError:
-        if overlap(intervals[0], intervals[-1])\
-           and len(intervals) > 1:
-            y = union_(intervals[0], intervals[-1])
-            del intervals[0]
-            del intervals[-1]
+    ix = 0
+    while ix < len(intervals) - 1:
+        if len(intervals) > 2 and \
+           overlap(intervals[ix], intervals[ix+1]):
+            y = union_(intervals[ix], intervals[ix+1])
+            del intervals[ix:ix+2]
             intervals.insert(ix, y)
+
+        else:
+            ix += 1
+
+    if len(intervals) >= 2 and \
+       overlap(intervals[-2], intervals[-1]):
+        y = union_(intervals[-2], intervals[-1])
+        del intervals[-2:]
+        intervals.insert(ix, y)
 
     print(intervals)
 
@@ -27,12 +25,8 @@ def sum_of_intervals(intervals):
 
     return sum_
 
-
-
-
 def union_(i1, i2):
    return (min(i1[0], i2[0]), max(i1[1], i2[1]))
-
 
 def overlap(i1, i2):
     if i2[0] < i1[1]:

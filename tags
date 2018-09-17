@@ -10,6 +10,7 @@ AnagramTest	python/test_where_my_anagrams_at.py	/^class AnagramTest(unittest.Tes
 BOLD	python/next_bigger_number_with_the_same_digits.py	/^    BOLD = '\\033[1m'$/;"	v	class:bcolors
 CaesarCipher	python/caesar_cipher_helper.py	/^class CaesarCipher:$/;"	c
 CaesarCipherTest	python/test_caesar_cipher_helper.py	/^class CaesarCipherTest(unittest.TestCase):$/;"	c
+Calculator	python/calculator.py	/^class Calculator(object):$/;"	c
 DnaStrand	java/src/DnaStrand.java	/^public class DnaStrand {$/;"	c
 DnaStrandTest	java/src/DnaStrandTest.java	/^public class DnaStrandTest {$/;"	c
 Dubstep	java/src/Dubstep.java	/^public class Dubstep {$/;"	c
@@ -20,6 +21,7 @@ FindNextSquareTest	java/src/FindNextSquareTest.java	/^public class FindNextSquar
 FindOutlier	java/src/FindOutlier.java	/^public class FindOutlier{$/;"	c
 FixedTests	java/src/TrollTests.java	/^    public void FixedTests() {$/;"	m	class:TrollTests
 HEADER	python/next_bigger_number_with_the_same_digits.py	/^    HEADER = '\\033[95m'$/;"	v	class:bcolors
+Inspector	python/papers_please.py	/^class Inspector:$/;"	c
 IntervalTest	python/test_sum_of_intervals.py	/^class IntervalTest(unittest.TestCase):$/;"	c
 LOSS	java/src/PokerHand.java	/^    public enum Result { TIE, WIN, LOSS }$/;"	e	enum:PokerHand.Result	file:
 MiddleCharacter	java/src/MiddleCharacter.java	/^public class MiddleCharacter {$/;"	c
@@ -34,6 +36,7 @@ OKBLUE	python/next_bigger_number_with_the_same_digits.py	/^    OKBLUE = '\\033[9
 OKGREEN	python/next_bigger_number_with_the_same_digits.py	/^    OKGREEN = '\\033[92m'$/;"	v	class:bcolors
 OutlierTest	java/src/OutlierTest.java	/^public class OutlierTest{$/;"	c
 PaginationHelper	python/paginationHelper.py	/^class PaginationHelper:$/;"	c
+PaperTest	python/test_papers_please.py	/^class PaperTest:$/;"	c
 PokerHand	java/src/PokerHand.java	/^    PokerHand(String hand)$/;"	m	class:PokerHand
 PokerHand	java/src/PokerHand.java	/^public class PokerHand$/;"	c
 PokerHandRankingTest	java/src/TestsPokerHand.java	/^    public void PokerHandRankingTest()$/;"	m	class:TestsPokerHand
@@ -66,9 +69,12 @@ Test	python/strip-comments.py	/^import nose.tools as Test$/;"	I
 Test	python/test_range_extraction.py	/^class Test(unittest.TestCase):$/;"	c
 Test	python/test_regex_password_validation.py	/^class Test(unittest.TestCase):$/;"	c
 Test	python/test_roman_numerals.py	/^class Test(unittest.TestCase):$/;"	c
+TestAlphaAnagram	python/test_alphabetic_anagram.py	/^class TestAlphaAnagram(unittest.TestCase):$/;"	c
+TestClass	python/test_calculator.py	/^class TestClass(unittest.TestCase):$/;"	c
 TestClass	python/test_maximum_subarray_sum.py	/^class TestClass(unittest.TestCase):$/;"	c
 TestClass	python/test_next_bigger_number_with_the_same_digits.py	/^class TestClass(unittest.TestCase):$/;"	c
 TestConway	python/test_conways_game_of_life_unlimited_edition.py	/^class TestConway(unittest.TestCase):$/;"	c
+TestMatrix	python/test_matrix_determinant.py	/^class TestMatrix(unittest.TestCase):$/;"	c
 TestMumbling	python/testMumbling.py	/^class TestMumbling(unittest.TestCase):$/;"	c
 TestNextBiggerNumberWithSameDigits	java/src/TestNextBiggerNumberWithSameDigits.java	/^public class TestNextBiggerNumberWithSameDigits {$/;"	c
 TestPinOvs	python/the_ovserved_pin_test.py	/^class TestPinOvs(unittest.TestCase):$/;"	c
@@ -110,8 +116,10 @@ basicTests	java/src/TestNextBiggerNumberWithSameDigits.java	/^    public void ba
 bcolors	python/next_bigger_number_with_the_same_digits.py	/^class bcolors:$/;"	c
 beggars	python/english_beggers.py	/^def beggars(values, n):  # n = beggers, values = List of begs$/;"	f
 bug	python/directions_reductions.py	/^    bug = ['NORTH', 'EAST', 'NORTH', 'EAST', 'WEST', 'SOUTH']$/;"	v
+bulletin	python/test_papers_please.py	/^bulletin = """Entrants require passport$/;"	v
 cakes	python/pete_the_baker.py	/^def cakes(recipe, available):$/;"	f
 calc	python/reverse_polish_notation.py	/^def calc(expr):$/;"	f
+calc	python/test_calculator.py	/^calc = Calculator()$/;"	v
 calculate	python/RouteCalculator.py	/^def calculate(expression):$/;"	f
 char	python/huffman_encoding.py	/^    char = None$/;"	v	class:Node
 checkFlush	java/src/PokerHand.java	/^    public Boolean checkFlush(Character[] handArray) {$/;"	m	class:PokerHand
@@ -125,6 +133,7 @@ decode	python/huffman_encoding.py	/^def decode(freqs, bits):$/;"	f
 decode	python/vignere_cipher_helper.py	/^    def decode(self, text):$/;"	m	class:VigenereCipher
 delete_stack	c/stacks_main.c	/^void delete_stack(Stack *stack) {$/;"	f	typeref:typename:void
 delete_stack	c/stacks_test.c	/^void delete_stack(Stack *stack) {$/;"	f	typeref:typename:void
+determinant	python/matrix_determinant.py	/^def determinant(matrix):$/;"	f
 dfs	python/triplets.py	/^def dfs(graph, v):$/;"	f
 digit_check	python/next_bigger_number_with_the_same_digits.py	/^def digit_check(s, x):$/;"	f
 digital_root	python/digitalRoot.py	/^def digital_root(n):$/;"	f
@@ -139,6 +148,7 @@ encode	python/vignere_cipher_helper.py	/^    def encode(self, text):$/;"	m	class
 encoded_string	python/huffman_encoding.py	/^encoded_string = (encode(frequencies(a), a))$/;"	v
 end	python/test_conways_game_of_life_unlimited_edition.py	/^end   = [[0,1,0],$/;"	v
 equals	python/vector.py	/^    def equals(self, a):$/;"	m	class:Vector
+evaluate	python/calculator.py	/^    def evaluate(self, string):$/;"	m	class:Calculator
 evenTests	java/src/MiddleCharacterTest.java	/^    public void evenTests() {$/;"	m	class:MiddleCharacterTest
 even_or_odd	c/even-or-odd.c	/^const char * even_or_odd(int number){$/;"	f	typeref:typename:const char *
 filter_list	python/listFiltering.py	/^def filter_list(l):$/;"	f
@@ -154,11 +164,13 @@ get_generation	python/conways_game_of_life_unlimited_edition.py	/^def get_genera
 get_pins	python/the_ovserved_pin.py	/^def get_pins(observed):$/;"	f
 get_sum	c/sum_of_numbers.c	/^int get_sum(int a , int b) {$/;"	f	typeref:typename:int
 global	nasm/smallest-integer-in-array.asm	/^global find_smallest_int$/;"	l
+guyovich	python/test_papers_please.py	/^guyovich = {$/;"	v
 handCode	java/src/PokerHand.java	/^    protected int handCode=999;$/;"	f	class:PokerHand
 handVal	java/src/PokerHand.java	/^    protected int handVal = -1;$/;"	f	class:PokerHand
 handVal	java/src/PokerHand.java	/^    public int handVal(HashMap<Character, ArrayList<Character>> map) {$/;"	m	class:PokerHand
 his_filter_list	python/listFiltering.py	/^def his_filter_list(l):$/;"	f
 htmlize	python/test_conways_game_of_life_unlimited_edition.py	/^def htmlize(array):$/;"	f
+inspector	python/test_papers_please.py	/^inspector = Inspector()$/;"	v
 invalid_coordinates	python/coordinates_validator.py	/^    invalid_coordinates = [$/;"	v
 irNode	python/huffman_encoding.py	/^    def irNode(cls, left, right):$/;"	m	class:Node
 isFlushArray	java/src/PokerHand.java	/^    public Boolean isFlushArray(Character[] highFlush, Character[] handArray) {$/;"	m	class:PokerHand
@@ -169,6 +181,7 @@ is_triangle	python/isThisATriangle.py	/^def is_triangle(a, b, c):$/;"	f
 is_valid_IP	python/ip_validation.py	/^def is_valid_IP(strng):$/;"	f
 is_valid_coordinates	python/coordinates_validator.py	/^def is_valid_coordinates(coordinates):$/;"	f
 item_count	python/paginationHelper.py	/^  def item_count(self):$/;"	m	class:PaginationHelper
+josef	python/test_papers_please.py	/^josef = {$/;"	v
 l	python/huffman_encoding.py	/^l = frequencies(a)$/;"	v
 l1	python/sumPairs.py	/^l1= [1, 4, 8, 7, 3, 15]$/;"	v
 l2	python/sumPairs.py	/^l2= [1, -2, 3, 0, -6, 1]$/;"	v
@@ -180,8 +193,11 @@ l7	python/sumPairs.py	/^l7= [0, 2, 0]$/;"	v
 l8	python/sumPairs.py	/^l8= [5, 9, 13, -3]$/;"	v
 leafNode	python/huffman_encoding.py	/^    def leafNode(cls, v, c):$/;"	m	class:Node
 left	python/huffman_encoding.py	/^    left = None$/;"	v	class:Node
+listPosition	python/alphabetic_anagram.py	/^def listPosition(word):$/;"	f
 longest_slide_down	python/pyramide-slide-down.py	/^def longest_slide_down(pyr):$/;"	f
 loss	java/src/TestsPokerHand.java	/^    private PokerHand.Result loss = PokerHand.Result.LOSS;$/;"	f	class:TestsPokerHand	file:
+m1	python/test_matrix_determinant.py	/^m1 = [[1, 3], [2,5]]$/;"	v
+m2	python/test_matrix_determinant.py	/^m2 = [[2,5,3], [1,-2,-1], [1, 3, 4]]$/;"	v
 main	c/count-the-digit-main.c	/^int main() {$/;"	f	typeref:typename:int
 main	c/linked_list_to_string.main.c	/^int main()$/;"	f	typeref:typename:int
 main	c/printer_errors.c	/^int main(){$/;"	f	typeref:typename:int
@@ -193,8 +209,11 @@ main	cpp/snail.cpp	/^int main(){$/;"	f	typeref:typename:int
 main	python/TestRouteCalculator.py	/^def main():$/;"	f
 main	python/sum_by_factors_test.py	/^def main():$/;"	f
 main	python/testMumbling.py	/^def main():$/;"	f
+main	python/test_alphabetic_anagram.py	/^def main():$/;"	f
 main	python/test_caesar_cipher_helper.py	/^def main():$/;"	f
+main	python/test_calculator.py	/^def main():$/;"	f
 main	python/test_conways_game_of_life_unlimited_edition.py	/^def main():$/;"	f
+main	python/test_matrix_determinant.py	/^def main():$/;"	f
 main	python/test_maximum_subarray_sum.py	/^def main():$/;"	f
 main	python/test_next_bigger_number_with_the_same_digits.py	/^def main():$/;"	f
 main	python/test_paginationHelper.py	/^def main():$/;"	f
@@ -208,6 +227,7 @@ main	python/test_vigenere_cipher_helper.py	/^def main():$/;"	f
 main	python/test_weight_for_weight.py	/^def main():$/;"	f
 main	python/test_where_my_anagrams_at.py	/^def main():$/;"	f
 main	python/the_ovserved_pin_test.py	/^def main():$/;"	f
+main_test	python/test_papers_please.py	/^    def main_test(unittest.TestCase):$/;"	m	class:PaperTest
 makeComplement	java/src/DnaStrand.java	/^    public static String makeComplement(String dna) {$/;"	m	class:DnaStrand
 make_readable	python/human_readable_time.py	/^def make_readable(seconds):$/;"	f
 make_readable_2	python/human_readable_time.py	/^def make_readable_2(s):$/;"	f
@@ -233,6 +253,7 @@ operation	python/reverse_polish_notation.py	/^def operation(s, o1, o2):$/;"	f
 order_weight	python/weight_for_weight.py	/^def order_weight(string):$/;"	f
 ordered_count	python/orderedCountOfCharacters.py	/^def ordered_count(input):$/;"	f
 overlap	python/sum_of_intervals_2.py	/^def overlap(i1, i2):$/;"	f
+p	python/alphabetic_anagram.py	/^from itertools import permutations as p$/;"	x
 page_count	python/paginationHelper.py	/^  def page_count(self):$/;"	m	class:PaginationHelper
 page_index	python/paginationHelper.py	/^  def page_index(self, item_index):$/;"	m	class:PaginationHelper
 page_item_count	python/paginationHelper.py	/^  def page_item_count(self, page_index):$/;"	m	class:PaginationHelper
@@ -240,6 +261,7 @@ paginationHelperTest	python/test_paginationHelper.py	/^class paginationHelperTes
 pig_it	python/simple-pig-latin.py	/^def pig_it(text):$/;"	f
 prime_factor_list	python/sum_by_factors.py	/^def prime_factor_list(number):$/;"	f
 printerError	c/printer_errors.c	/^char* printerError(char *s) {$/;"	f	typeref:typename:char *
+receiveBulletin	python/papers_please.py	/^    def receiveBulletin(self, bulletin):$/;"	m	class:Inspector
 recipe	python/pete_the_baker.py	/^    recipe = {"apples": 3, "flour": 300, "sugar": 150, "milk": 100, "oil": 100}$/;"	v
 recipe	python/pete_the_baker.py	/^    recipe = {"flour": 500, "sugar": 200, "eggs": 1}$/;"	v
 recoverSecret	python/triplets.py	/^def recoverSecret(triplets):$/;"	f
@@ -248,9 +270,12 @@ repeat_str	c/string-repeat.c	/^char *repeat_str(size_t count, const char *src) {
 reverse	python/reverseWords.py	/^def reverse(st):$/;"	f
 rgb	c/rgb-to-hex.c	/^int rgb(int r, int g, int b, char *output)$/;"	f	typeref:typename:int
 right	python/huffman_encoding.py	/^    right = None$/;"	v	class:Node
+roman	python/test_papers_please.py	/^roman = {$/;"	v
 root	c/stacks.c	/^    Node *root;$/;"	m	struct:__anon151361b10108	typeref:typename:Node *	file:
 s1	python/snail.py	/^def s1(array):$/;"	f
 same_dig	python/next_bigger_number_with_the_same_digits.py	/^def same_dig(i, set_n):$/;"	f
+setUp	python/test_alphabetic_anagram.py	/^    def setUp(self):$/;"	m	class:TestAlphaAnagram
+setUp	python/test_matrix_determinant.py	/^    def setUp(self):$/;"	m	class:TestMatrix
 slide	python/pyramide-slide-down.py	/^def slide(array):$/;"	f
 snail	python/snail.py	/^def snail(array):$/;"	f
 solution	python/largest_5_numbers_in_a_series.py	/^def solution(digits):$/;"	f
@@ -270,6 +295,7 @@ subtract	python/vector.py	/^    def subtract(self, a):$/;"	m	class:Vector
 sum_for_list	python/sum_by_factors.py	/^def sum_for_list(lst):$/;"	f
 sum_of_intervals	python/sum_of_intervals.py	/^def sum_of_intervals(intervals):$/;"	f
 sum_of_intervals	python/sum_of_intervals_2.py	/^def sum_of_intervals(intervals):$/;"	f
+sum_of_intervals	python/sum_of_intervals_juangaitan.py	/^def sum_of_intervals(intervals):$/;"	f
 sum_pairs	python/sumPairs.py	/^def sum_pairs(ints, s):$/;"	f
 t	python/huffman_encoding.py	/^t = []$/;"	v
 test	java/src/SpinWordsTest.java	/^    public void test() {$/;"	m	class:SpinWordsTest
@@ -282,10 +308,13 @@ test1	java/src/FindNextSquareTest.java	/^    public void test1() {$/;"	m	class:F
 test2	java/src/FindNextSquareTest.java	/^    public void test2() {$/;"	m	class:FindNextSquareTest
 test3	java/src/FindNextSquareTest.java	/^    public void test3() {$/;"	m	class:FindNextSquareTest
 testExample	java/src/OutlierTest.java	/^ public void testExample() {$/;"	m	class:OutlierTest
+testMain	python/test_alphabetic_anagram.py	/^    def testMain(self):$/;"	m	class:TestAlphaAnagram
+testMain	python/test_matrix_determinant.py	/^    def testMain(self):$/;"	m	class:TestMatrix
 testSomething	java/src/SolutionTest.java	/^	public void testSomething() {$/;"	m	class:SolutionTest
 testStringMix	python/test_strings_mix.py	/^    def testStringMix(self):$/;"	m	class:StringTest
 test_anagrams	python/test_where_my_anagrams_at.py	/^    def test_anagrams(self):$/;"	m	class:AnagramTest
 test_bigger	python/test_next_bigger_number_with_the_same_digits.py	/^    def test_bigger(self):$/;"	m	class:TestClass
+test_calculator	python/test_calculator.py	/^    def test_calculator(self):$/;"	m	class:TestClass
 test_createHelper	python/test_paginationHelper.py	/^    def test_createHelper(self):$/;"	m	class:paginationHelperTest
 test_create_cipher	python/test_caesar_cipher_helper.py	/^    def test_create_cipher(self):$/;"	m	class:CaesarCipherTest
 test_create_cipher	python/test_vigenere_cipher_helper.py	/^    def test_create_cipher(self):$/;"	m	class:VigenereCipherTest
