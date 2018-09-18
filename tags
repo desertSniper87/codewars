@@ -11,12 +11,14 @@ BOLD	python/next_bigger_number_with_the_same_digits.py	/^    BOLD = '\\033[1m'$/
 CaesarCipher	python/caesar_cipher_helper.py	/^class CaesarCipher:$/;"	c
 CaesarCipherTest	python/test_caesar_cipher_helper.py	/^class CaesarCipherTest(unittest.TestCase):$/;"	c
 Calculator	python/calculator.py	/^class Calculator(object):$/;"	c
+Calculator	python/calculator_jolaf.py	/^class Calculator(object):$/;"	c
 DnaStrand	java/src/DnaStrand.java	/^public class DnaStrand {$/;"	c
 DnaStrandTest	java/src/DnaStrandTest.java	/^public class DnaStrandTest {$/;"	c
 Dubstep	java/src/Dubstep.java	/^public class Dubstep {$/;"	c
 ENDC	python/next_bigger_number_with_the_same_digits.py	/^    ENDC = '\\033[0m'$/;"	v	class:bcolors
 EXAMPLES	python/orderedCountOfCharactersTest.py	/^EXAMPLES = ($/;"	v
 FAIL	python/next_bigger_number_with_the_same_digits.py	/^    FAIL = '\\033[91m'$/;"	v	class:bcolors
+FIRST	python/calculator_jolaf.py	/^FIRST = {'*' : mul, '\/': div}$/;"	v
 FindNextSquareTest	java/src/FindNextSquareTest.java	/^public class FindNextSquareTest {$/;"	c
 FindOutlier	java/src/FindOutlier.java	/^public class FindOutlier{$/;"	c
 FixedTests	java/src/TrollTests.java	/^    public void FixedTests() {$/;"	m	class:TrollTests
@@ -43,6 +45,7 @@ PokerHandRankingTest	java/src/TestsPokerHand.java	/^    public void PokerHandRan
 ROYAL_FLUSH	java/src/PokerHand.java	/^    final Character[] ROYAL_FLUSH = {'A', 'J', 'K', 'Q', 'T'};$/;"	f	class:PokerHand
 Result	java/src/PokerHand.java	/^    public enum Result { TIE, WIN, LOSS }$/;"	g	class:PokerHand
 RomanNumerals	python/roman_numerals.py	/^class RomanNumerals(object):$/;"	c
+SECOND	python/calculator_jolaf.py	/^SECOND = {'+': add, '-': sub}$/;"	v
 STRAIGHT_1	java/src/PokerHand.java	/^    final Character[] STRAIGHT_1 = {'2', '3', '4', '5', '6'};$/;"	f	class:PokerHand
 STRAIGHT_2	java/src/PokerHand.java	/^    final Character[] STRAIGHT_2 = {'3', '4', '5', '6', '7'};$/;"	f	class:PokerHand
 STRAIGHT_3	java/src/PokerHand.java	/^    final Character[] STRAIGHT_3 = {'4', '5', '6', '7', '8'};$/;"	f	class:PokerHand
@@ -91,6 +94,7 @@ VigenereCipherTest	python/test_vigenere_cipher_helper.py	/^class VigenereCipherT
 WARNING	python/next_bigger_number_with_the_same_digits.py	/^    WARNING = '\\033[93m'$/;"	v	class:bcolors
 WIN	java/src/PokerHand.java	/^    public enum Result { TIE, WIN, LOSS }$/;"	e	enum:PokerHand.Result	file:
 WeightTest	python/test_weight_for_weight.py	/^class WeightTest(unittest.TestCase):$/;"	c
+WordTest	python/test_most_frequent_word.py	/^class WordTest(unittest.TestCase):$/;"	c
 __anon151361b10108	c/stacks.c	/^typedef struct {$/;"	s	file:
 __init__	python/caesar_cipher_helper.py	/^    def __init__(self, shift):$/;"	m	class:CaesarCipher
 __init__	python/huffman_encoding.py	/^    def __init__(self, val=0, char=None, left=None, right=None):$/;"	m	class:Node
@@ -149,6 +153,7 @@ encoded_string	python/huffman_encoding.py	/^encoded_string = (encode(frequencies
 end	python/test_conways_game_of_life_unlimited_edition.py	/^end   = [[0,1,0],$/;"	v
 equals	python/vector.py	/^    def equals(self, a):$/;"	m	class:Vector
 evaluate	python/calculator.py	/^    def evaluate(self, string):$/;"	m	class:Calculator
+evaluate	python/calculator_jolaf.py	/^    def evaluate(self, string):$/;"	m	class:Calculator
 evenTests	java/src/MiddleCharacterTest.java	/^    public void evenTests() {$/;"	m	class:MiddleCharacterTest
 even_or_odd	c/even-or-odd.c	/^const char * even_or_odd(int number){$/;"	f	typeref:typename:const char *
 filter_list	python/listFiltering.py	/^def filter_list(l):$/;"	f
@@ -215,6 +220,7 @@ main	python/test_calculator.py	/^def main():$/;"	f
 main	python/test_conways_game_of_life_unlimited_edition.py	/^def main():$/;"	f
 main	python/test_matrix_determinant.py	/^def main():$/;"	f
 main	python/test_maximum_subarray_sum.py	/^def main():$/;"	f
+main	python/test_most_frequent_word.py	/^def main():$/;"	f
 main	python/test_next_bigger_number_with_the_same_digits.py	/^def main():$/;"	f
 main	python/test_paginationHelper.py	/^def main():$/;"	f
 main	python/test_range_extraction.py	/^def main():$/;"	f
@@ -323,6 +329,7 @@ test_decodedescription	python/test_vigenere_cipher_helper.py	/^    def test_deco
 test_draw	python/test_conways_game_of_life_unlimited_edition.py	/^    def test_draw(self):$/;"	m	class:TestConway
 test_encode	python/test_caesar_cipher_helper.py	/^    def test_encode(self):$/;"	m	class:CaesarCipherTest
 test_encode	python/test_vigenere_cipher_helper.py	/^    def test_encode(self):$/;"	m	class:VigenereCipherTest
+test_func	python/test_most_frequent_word.py	/^    def test_func(self):$/;"	m	class:WordTest
 test_item_count	python/test_paginationHelper.py	/^    def test_item_count(self):$/;"	m	class:paginationHelperTest
 test_mumble	python/testMumbling.py	/^    def test_mumble(self):$/;"	m	class:TestMumbling
 test_name	python/test_range_extraction.py	/^    def test_name(self):$/;"	m	class:Test
@@ -341,6 +348,7 @@ test_triplet	python/test_triplets.py	/^    def test_triplet(self):$/;"	m	class:T
 test_weight	python/test_weight_for_weight.py	/^    def test_weight(self):$/;"	m	class:WeightTest
 tie	java/src/TestsPokerHand.java	/^    private PokerHand.Result tie = PokerHand.Result.TIE;$/;"	f	class:TestsPokerHand	file:
 to_roman	python/roman_numerals.py	/^    def to_roman(n):$/;"	m	class:RomanNumerals
+top_3_words	python/most_frequent_word.py	/^def top_3_words(text):$/;"	f
 toposort	python/triplets.py	/^def toposort(graph, letter_set):$/;"	f
 traverse	python/huffman_encoding.py	/^def traverse(n, code={}, stack=[]):$/;"	f
 union_	python/sum_of_intervals_2.py	/^def union_(i1, i2):$/;"	f
