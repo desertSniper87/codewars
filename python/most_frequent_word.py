@@ -3,36 +3,22 @@ import re
 
 
 def top_3_words(text):
-    # text = ''.join(t for t in text
-    #                if str.isalnum(t) == True or
-    #                t in [' ', '\''])
+    pattern = re.compile('[\.:?;_\-,!/]+')
+    text = re.sub(pattern, ' ', text)
 
-    print(text)
+    pattern = re.compile('[^\w][\']+[^\w]')
+    text = re.sub(pattern, '', text)
 
-    # pattern = re.compile('([\w]+[\']?[\w]?)')
-    pattern = re.compile('(?!_\-:\.!)([\w]+[\']?[\w]?[^_\-:\.!\ ]?)')
-    text = pattern.findall(text)
-    print(text)
+    text = text.lower().split()
 
-    text = map(str.lower, text)
-    text = filter(is_unwanted_char, text)
     counter = Counter(text)
-    # print(text)
-
     print(counter.most_common())
 
-    res = []
+    print(text)
 
-    for f in counter.most_common(3):
-        res.append(f[0])
+    ret = []
 
-    return res
+    for i in counter.most_common(3):
+        ret.append(i[0])
 
-
-def is_unwanted_char(c):
-    unwanted_char = ['_', '\'', ';']
-
-    if c not in unwanted_char:
-        return True
-    return False
-
+    return ret

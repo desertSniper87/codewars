@@ -23,6 +23,7 @@ on Sundays, made away with three-quarters of his income."""), ["a", "of", "on"])
 
         self.assertEqual(top_3_words("SvQDwZJoX?SvQDwZJoX.-:?;snBfRl?snBfRl snBfRl _! SvQDwZJoX;//:/SvQDwZJoX_/-,-SvQDwZJoX/SvQDwZJoX,;/-_snBfRl_snBfRl./.!yVX:!_;snBfRl;_;;/snBfRl;snBfRl!,:--yVX.?,,_SvQDwZJoX!?-:/snBfRl SvQDwZJoX?_.yVX-,yVX:SvQDwZJoX  _snBfRl:yVX.-?-.SvQDwZJoX snBfRl??yVX?yVX-snBfRl,yVX.-,/ yVX-_snBfRl.?SvQDwZJoX!__,:yVX/. yVX.;?;yVX-::snBfRl:/!/yVX!yVX _;!SvQDwZJoX;;.?SvQDwZJoX.snBfRl?SvQDwZJoX!;,.snBfRl--yVX-: SvQDwZJoX -!-SvQDwZJoX,,/:/yVX,,SvQDwZJoX-._-yVX,: :SvQDwZJoX?;?;SvQDwZJoX_ snBfRl,!yVX.-??-"), ['svqdwzjox', 'yvx', 'snbfrl'])
 
+        self.assertEqual(top_3_words("SKUlg.,!/SKUlg?SKUlg ,,:;GS''CfWH-_?SKUlg./::!SKUlg;!SKUlg;;GS''CfWH_ _.!SKUlg-/ .SKUlg_?:.GS''CfWH!_;GS''CfWH:!/GS''CfWH:_"), ['skulg', "gs''cfwh"])
 def main():
         unittest.main()
 
