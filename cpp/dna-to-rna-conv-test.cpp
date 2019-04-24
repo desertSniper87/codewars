@@ -1,4 +1,6 @@
 #include <igloo/igloo_alt.h>
+using namespace igloo;
+
 #include "dna-to-rna-conv.cpp"
 
 Describe(DNA_to_RNA)
@@ -9,3 +11,8 @@ Describe(DNA_to_RNA)
     }
 
 };
+
+int main(int argc, const char *argv[])
+{
+    return TestRunner::RunAllTests(argc, const_cast<char **>(argv));
+}
