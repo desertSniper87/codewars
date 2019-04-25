@@ -5,3 +5,6 @@ add_executable(dna-to-rna-conv-test dna-to-rna-conv-test.cpp)
 
 project (two-to-one)
 add_executable(two-to-one-test two-to-one-test.cpp)
+
+project (consecutive-strings)
+add_executable(consecutive-strings-test consecutive-strings-test.cpp)
