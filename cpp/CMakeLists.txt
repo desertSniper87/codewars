@@ -8,3 +8,7 @@ add_executable(two-to-one-test two-to-one-test.cpp)
 
 project (consecutive-strings)
 add_executable(consecutive-strings-test consecutive-strings-test.cpp)
+
+project (a-chain-adding-function)
+add_executable(a-chain-adding-function-test a-chain-adding-function-test.cpp)
+
