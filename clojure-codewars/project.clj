@@ -5,8 +5,9 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]]
 
-  :profiles {:main-digitizer {:main digitizer.core}
-             ;:main-lazynext {:main lazynext.core}
+  :profiles {
+             ;:main-digitizer {:main digitizer.core}
+             :main-lazynext {:main lazynext.core}
              ;{:main-b {:main def}}
              ;        :aliases {"main-digitizer" ["with-profile" "main-digitizer" "run"]
                                ;"main-b" ["with-profile" "main-b" "run"]
