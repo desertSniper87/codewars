@@ -4,9 +4,6 @@
 (defn next-item
   "Returns the value that comes after item in xs or nil"
   [xs item]
-  (println (class xs))
-  (println xs)
-  (println item)
   (cond
     (= (class xs) LongRange)
     (nth xs (+ (.indexOf xs item) 1))

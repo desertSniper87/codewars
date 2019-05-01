@@ -7,11 +7,12 @@
 
   :profiles {
              ;:main-digitizer {:main digitizer.core}
-             :main-lazynext {:main lazynext.core}
+             ;:main-lazynext {:main lazynext.core}
+             :main-reverser {:main reverver.core}}
              ;{:main-b {:main def}}
              ;        :aliases {"main-digitizer" ["with-profile" "main-digitizer" "run"]
                                ;"main-b" ["with-profile" "main-b" "run"]
-                               }
+
 
 
   :target-path "target/%s")
