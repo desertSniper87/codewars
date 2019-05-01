@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea80f111-ae3d-4fae-a519-fe7f1f2ceb13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/katas/counting_duplicates.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/katas/counting_duplicates.clj" afterDir="false" />
+    <list default="true" id="52554b89-009a-4205-831d-d2691204bdff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bit-counting/bit-counting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/reverser/core.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/reverser/test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/lazynext/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../src/lazynext/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/digitizer/test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../test/digitizer/test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lazynext/test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../test/lazynext/test.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +30,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/katas/counting_duplicates.clj">
+        <entry file="file://$PROJECT_DIR$/src/kata/bus.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/katas/counting_duplicates_test.clj">
+        <entry file="file://$PROJECT_DIR$/test/kata/bus_testing.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -39,16 +55,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/counting_duplicates/core.clj" />
-        <option value="$PROJECT_DIR$/test/counting_duplicates/core_test.clj" />
-        <option value="$PROJECT_DIR$/src/katas/counting_duplicates.clj" />
+        <option value="$PROJECT_DIR$/src/number_of_people_in_the_bus/core.clj" />
+        <option value="$PROJECT_DIR$/test/number_of_people_in_the_bus/core_test.clj" />
+        <option value="$PROJECT_DIR$/src/kata/bus.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/counting-duplicates.iml" />
+        <option value="$PROJECT_DIR$/number-of-people-in-the-bus.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
@@ -73,29 +89,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="counting-duplicates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="counting-duplicates" type="462c0819:PsiDirectoryNode" />
+              <item name="number-of-people-in-the-bus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-of-people-in-the-bus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="counting-duplicates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="counting-duplicates" type="462c0819:PsiDirectoryNode" />
+              <item name="number-of-people-in-the-bus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-of-people-in-the-bus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="counting-duplicates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="counting-duplicates" type="462c0819:PsiDirectoryNode" />
+              <item name="number-of-people-in-the-bus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-of-people-in-the-bus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="number-of-people-in-the-bus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-of-people-in-the-bus" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="number-of-people-in-the-bus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="number-of-people-in-the-bus" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="kata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +164,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <module name="counting-duplicates" />
+      <module name="number-of-people-in-the-bus" />
       <arguments argument="test" />
       <setting name="profiles" value="" />
       <setting name="trampoline" value="true" />
@@ -148,17 +176,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea80f111-ae3d-4fae-a519-fe7f1f2ceb13" name="Default Changelist" comment="" />
-      <created>1556718838892</created>
+      <changelist id="52554b89-009a-4205-831d-d2691204bdff" name="Default Changelist" comment="" />
+      <created>1556716515795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556718838892</updated>
-      <workItem from="1556718840704" duration="2190000" />
+      <updated>1556716515795</updated>
+      <workItem from="1556716517551" duration="2165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2190000" />
+    <option name="totallyTimeSpent" value="2165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="749" extended-state="0" />
@@ -201,17 +229,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/katas/counting_duplicates_test.clj">
+    <entry file="file://$PROJECT_DIR$/test/kata/bus_testing.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/katas/counting_duplicates.clj">
+    <entry file="file://$PROJECT_DIR$/src/kata/bus.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

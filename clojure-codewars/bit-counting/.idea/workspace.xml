@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea80f111-ae3d-4fae-a519-fe7f1f2ceb13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/katas/counting_duplicates.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/katas/counting_duplicates.clj" afterDir="false" />
+    <list default="true" id="90c313f6-5746-408a-a7af-848f8e7d7951" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bit-counting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/reverser/core.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/reverser/test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/lazynext/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../src/lazynext/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/digitizer/test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../test/digitizer/test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lazynext/test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../test/lazynext/test.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +30,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/katas/counting_duplicates.clj">
+        <entry file="file://$PROJECT_DIR$/src/clojure/bit_counting.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/katas/counting_duplicates_test.clj">
+        <entry file="file://$PROJECT_DIR$/test/clojure/bit_counting_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -39,26 +55,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/counting_duplicates/core.clj" />
-        <option value="$PROJECT_DIR$/test/counting_duplicates/core_test.clj" />
-        <option value="$PROJECT_DIR$/src/katas/counting_duplicates.clj" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/counting-duplicates.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" />
-        <option value="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" />
+        <option value="$PROJECT_DIR$/src/bit_counting/core.clj" />
+        <option value="$PROJECT_DIR$/src/clojure/bit_counting_test.clj" />
+        <option value="$PROJECT_DIR$/test/bit_counting/core_test.clj" />
+        <option value="$PROJECT_DIR$/src/clojure/bit_counting.clj" />
       </list>
     </option>
   </component>
@@ -73,24 +73,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="counting-duplicates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="counting-duplicates" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-counting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bit-counting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="counting-duplicates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="counting-duplicates" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-counting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bit-counting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="counting-duplicates" type="b2602c69:ProjectViewProjectNode" />
-              <item name="counting-duplicates" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-counting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bit-counting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="clojure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bit-counting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bit-counting" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bit-counting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bit-counting" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="clojure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -99,6 +111,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -136,7 +149,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test" type="LeiningenRunConfiguration" factoryName="Leiningen">
-      <module name="counting-duplicates" />
+      <module name="bit-counting" />
       <arguments argument="test" />
       <setting name="profiles" value="" />
       <setting name="trampoline" value="true" />
@@ -148,17 +161,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea80f111-ae3d-4fae-a519-fe7f1f2ceb13" name="Default Changelist" comment="" />
-      <created>1556718838892</created>
+      <changelist id="90c313f6-5746-408a-a7af-848f8e7d7951" name="Default Changelist" comment="" />
+      <created>1556705067839</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556718838892</updated>
-      <workItem from="1556718840704" duration="2190000" />
+      <updated>1556705067839</updated>
+      <workItem from="1556705069921" duration="1813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2190000" />
+    <option name="totallyTimeSpent" value="1813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="749" extended-state="0" />
@@ -201,17 +214,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/katas/counting_duplicates_test.clj">
+    <entry file="file://$PROJECT_DIR$/test/clojure/bit_counting_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/katas/counting_duplicates.clj">
+    <entry file="file://$PROJECT_DIR$/src/clojure/bit_counting.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
