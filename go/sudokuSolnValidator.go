@@ -59,13 +59,13 @@ func ValidateSolution(m [][]int) bool {
 	for i := 3; i <= 9; i += 3 {
 		for j := 3; j <= 9; j += 3 {
 			fmt.Println(sudoku.getBlock(i, j))
-			// if arrSum(sudoku.getBlock(i, j)) != 45 {
-			// 	return false
-			// }
+			if arrSum(sudoku.getBlock(i, j)) != 45 {
+				return false
+			}
 
 		}
 
 	}
 
-	return false
+	return true
 }
