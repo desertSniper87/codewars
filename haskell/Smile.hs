@@ -23,6 +23,5 @@ countSmily (x:xs:rest)
     | validEyes x && validNose xs && validSmile (head rest) = True
     | otherwise = False
 
--- countSmileys :: [String] -> Int
 countSmileys :: [String] -> Int
 countSmileys = length . filter countSmily
