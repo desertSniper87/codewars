@@ -1,10 +1,14 @@
 module Codewars.Exercise.MergeChecker where
 
-isMerge :: String -> String -> String -> Bool
-isMerge "" _ _ = False
-isMerge _ "" "" = True 
+isMerge :: [Char] -> [Char] -> [Char] -> Bool
+isMerge s x y
+    |  s == x && y == ""  = True
+    |  s /= x && y == ""  = False
+    |  s == y && x == ""  = True
+    |  s /= y && x == ""  = False
+    |  s == "" = False
 isMerge (s:ss) (x:xs) (y:ys)
+    | s == x && s == y = isMerge ss xs (y:ys) || isMerge ss (x:xs) ys
     | s == x = isMerge ss xs (y:ys)
     | s == y = isMerge ss (x:xs) ys
-    | null ys || null xs = True 
-    | otherwise = False 
+    | otherwise = False
